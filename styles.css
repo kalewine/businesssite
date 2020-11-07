@@ -1,0 +1,141 @@
+*{
+    
+}
+/* Universal Selectors*/
+body {   
+    margin: 0;
+    font-family: "Lexend Mega", sans-serif;
+    color: black;
+    background-color: white;
+    font-size: 22px;
+    text-align: center;
+    
+}
+
+a {
+    text-decoration: underline;
+    color: black;
+}
+
+/* Header and Nav Bar Selectors*/
+
+header h1 {
+    padding-bottom: 10px;   
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    margin-left: 175px;
+    margin-right: 175px;
+    padding-bottom: 50px;
+}
+
+
+/* Mission Statement Selectors*/
+.statement {
+    display: flex;
+}
+  
+#mission article {
+    margin: 100px 0px;
+    flex-grow: 1; 
+    background-color: white;
+   
+}
+
+#mission h2 {
+    margin: 10px;
+    padding: 5px;  
+}
+
+#mission p {
+    margin: 10px;
+    padding: 5px;
+    font-weight: bold;
+}
+ 
+#mission {
+    border: 1px white solid;
+    background-image: url("images/outdoor-architecture-street-view-building-city-skyscraper-urban-cityscape-downtown-line-facade-professional-business-modern-tower-block-symmetry-shape-headquarters-metropolis.jpg");
+    background-position: center;
+    background-image: cover;
+}
+
+
+/* Portfolio Selectors*/
+.sectors {
+    margin-top: 25px;
+    font-weight: bold;  
+    padding: 50px;
+}
+
+.images {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+
+figure {
+    display: flex;
+    flex-flow: row wrap;  
+    margin-top: 5px;
+    margin-right: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+figure img {
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    margin-left: auto; 
+    margin-right: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+figcaption {    
+    padding-top: 60px;
+    border: red 1px solid;
+    width: auto;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Investment Team */
+
+
+
+.team {
+    display: flex;
+    background-image: url("images/sepia-abstract-building-walls-made-steel-glass-high-urban-impressive-modern-construction-concept-monochrome-business-center-70488795.jpg");
+    background-image: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 50px; 
+    color: white;
+    font-weight: bold;
+}
+
+#teammate {
+    flex-basis: 280px;
+}
+
+#teammate img {
+    width: 200px;
+    height: auto; 
+    
+    
+}
+
+
+
+/* Footer Selectors */
+
+footer p {
+    font-size: 80%;
+}
