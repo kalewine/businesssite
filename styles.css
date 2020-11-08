@@ -57,7 +57,7 @@ nav {
  
 #mission {
     border: 1px white solid;
-    background-image: url("images/outdoor-architecture-street-view-building-city-skyscraper-urban-cityscape-downtown-line-facade-professional-business-modern-tower-block-symmetry-shape-headquarters-metropolis.jpg");
+    background-image: url("images/building-1.jpg");
     background-position: center;
     background-image: cover;
 }
@@ -110,7 +110,7 @@ figcaption {
 
 .team {
     display: flex;
-    background-image: url("images/sepia-abstract-building-walls-made-steel-glass-high-urban-impressive-modern-construction-concept-monochrome-business-center-70488795.jpg");
+    background-image: url("images/building-2.jpg");
     background-image: cover;
     background-position: center;
     display: flex;
